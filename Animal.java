@@ -106,14 +106,14 @@ public class Animal {
       
       // står på samme felt
       if ((x1 == x2) && (y1 == y2)) {
-         System.out.println("I am the Rabbit and I stand on point (" + x1 + ", " + y1 + ")");
-         System.out.println("I am the Snake and I stand on point (" + x2 + ", " + y2 + ")");
+         System.out.println("I am the Rabbit and I am standing at (" + x1 + ", " + y1 + ")");
+         System.out.println("I am the Snake and I am standing at (" + x2 + ", " + y2 + ")");
          System.out.println("Rabbit: Arrgh! Mr. Snake, please do not eat me!");
          System.out.println("Snake: I am hungry, so I'm going to eat you!");  
       }
       else {
-         System.out.println("I am the Rabbit and I stand on point (" + x1 + ", " + y1 + ")");     
-         System.out.println("I am the Snake and I stand on point (" + x2 + ", " + y2 + ")");
+         System.out.println("I am the Rabbit and I am standing at (" + x1 + ", " + y1 + ")");     
+         System.out.println("I am the Snake and I am standing at (" + x2 + ", " + y2 + ")");
       }     
    }
    System.out.println();
