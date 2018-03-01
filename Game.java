@@ -4,8 +4,7 @@ public class Game {
    public static void main(String [] args) {
    
    // lav dyr
-   Animal snake = new Animal("Snake");
-   Animal rabbit = new Animal("Rabbit");
+   Animal animal = new Animal();
    
   // console input
    Scanner console = new Scanner(System.in);
@@ -18,6 +17,6 @@ public class Game {
       console.next(); 
    }
    
-   snake.runGame();
+   animal.runGame();
    }
 }
