@@ -12,6 +12,7 @@ public class Game {
    System.out.println("Welcome to the game \"Bunny Hop\".");
    System.out.println("Let us see how many turns you are able to stay away and not be eaten by the snake.");  
    System.out.println("Type \'start\' to start the game.");
+   
    while (!console.hasNext("start")) {
       System.out.println("You have made a typo. Try again.");
       console.next(); 
